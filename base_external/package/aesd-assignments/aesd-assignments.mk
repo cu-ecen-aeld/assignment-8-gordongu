@@ -6,11 +6,11 @@
 ##############################################################
 
 #TODO: Fill up the contents below in order to reference your assignment 3 git contents
-AESD_ASSIGNMENTS_VERSION = 1b8f645f8de267759dc942631433bb5bbeda6dd1 # '#COMMIT VERSION NUMBER'
+AESD_ASSIGNMENTS_VERSION = '67a0a2d45a232f8072dfa0b93b0c4fcdbaf4ab2a'# '#COMMIT VERSION NUMBER'
 # Note: Be sure to reference the *ssh* repository URL here (not https) to work properly
 # with ssh keys and the automated build/test system.
 # Your site should start with git@github.com:
-AESD_ASSIGNMENTS_SITE = git@github.com:cu-ecen-aeld/assignments-3-and-later-gordongu.git # '#GITHUB REPOSITORY LINK'
+AESD_ASSIGNMENTS_SITE = 'git@github.com:cu-ecen-aeld/assignments-3-and-later-gordongu.git'# '#GITHUB REPOSITORY LINK'
 AESD_ASSIGNMENTS_SITE_METHOD = git
 AESD_ASSIGNMENTS_GIT_SUBMODULES = YES
 
