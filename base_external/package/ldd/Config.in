@@ -2,4 +2,4 @@
 config BR2_PACKAGE_LDD
 	bool "ldd"
 	help
-	  Test
+	  Includes the scull module and all modules under misc-modules from ldd3 in the kernel image.
