@@ -1,4 +1,4 @@
-AESDCHAR_VERSION = '2b55c6b945a0d8e6807508643af153739d8fa3fc'
+AESDCHAR_VERSION = '4e6874ccb0f8b83fd4f715aa5c1edca4d6d2cf80'
 AESDCHAR_SITE = 'git@github.com:cu-ecen-aeld/assignments-3-and-later-gordongu.git'
 AESDCHAR_SITE_METHOD = git
 AESDCHAR_GIT_SUBMODULES = YES
