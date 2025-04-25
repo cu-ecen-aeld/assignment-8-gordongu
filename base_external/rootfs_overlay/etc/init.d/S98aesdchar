@@ -1,0 +1,23 @@
+#!/bin/sh
+
+# Check if argument exists
+if [ -z "$1" ]; then
+    echo "Error: missing arguments"
+    exit 1
+fi
+
+# Process argument and either start or stop the daemon process
+case "$1" in
+    start)
+        aesdchar_load
+        ;;
+    stop)
+        aesdchar_unload
+        ;;
+    *)
+        echo "Usage: $0 [ start | stop ]"
+        exit 1
+        ;;
+esac
+
+exit 0

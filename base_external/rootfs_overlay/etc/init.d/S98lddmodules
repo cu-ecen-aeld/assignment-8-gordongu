@@ -106,13 +106,13 @@ fi
 case "$1" in
     start)
         load_module scull
-        load_module faulty
-        load_module hello
+        # load_module faulty
+        # load_module hello
         ;;
     stop)
         unload_module scull
-        unload_module faulty
-        unload_module hello
+        # unload_module faulty
+        # unload_module hello
         ;;
     *)
         echo "Usage: $0 [ start | stop ]"
